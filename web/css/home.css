@@ -1,0 +1,23 @@
+.main{
+    background:linear-gradient(to right,#00000070,#0000001a),url("../images/homeBack.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:650px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 90%, 50% 100%, 0 90%);
+}
+
+#cursor{
+    animation: blink 0.5s infinite ease;
+}
+@keyframes blink{  
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.contact-about{
+    background: linear-gradient(165deg,#16c9f6 55%,#fff 0%);
+}

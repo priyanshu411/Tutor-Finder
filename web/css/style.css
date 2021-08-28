@@ -1,0 +1,35 @@
+.mynav{
+    background: #a770ef;
+}
+.navbar-nav .nav-link{
+    color:white;
+    font-size: 1.2rem;
+}
+.navbar-nav .nav-link:hover {
+    color:yellow;
+    border-bottom: 2px solid yellow;
+}
+.navbar-toggler{
+    font-size: 2rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.for-body{
+    background-color: #ffaa00;
+    background-image: url("../images/background.svg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.for-bg{
+    background-color: #ffffff2e;
+    backdrop-filter: blur(5px);
+}
+.b-radius{
+    border-radius: 15px!important;
+}
+.b-t-radius{
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
